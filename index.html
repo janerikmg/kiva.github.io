@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <title>Home - Despoina Florou</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
     <link rel="stylesheet" href="/kiva.github.io/assets/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
@@ -15,7 +17,7 @@
   <body>
     <header>
     
-    <nav class="demo">
+    <nav class="">
       <a href="https://janerikmg.github.io/kiva.github.io" class="brand">
         <img class="logo" src="/kiva.github.io/assets/kiva-4.png" alt="KIBA" />
         <!-- <span>KIBA</span> -->
@@ -26,7 +28,7 @@
       <label for="bmenub" class="burger pseudo button">Μενού</label>
     
       <div class="menu">
-        <a href="/kiva.github.io/about/" class="pseudo button icon-picture">Σχετικά</a>
+        <a href="/kiva.github.io/about/" class="pseudo button icon-picture">Ποιοι Είμαστε</a>
         <a href="/kiva.github.io/work/" class="pseudo button icon-picture">Έργα</a>
         <a href="/kiva.github.io/services/" class="pseudo button icon-picture">Υπηρεσίες</a>
         <a href="" class="button button icon-picture">Επικοινωνία</a>
@@ -37,52 +39,33 @@
 </header>
     <div class="swiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background-image: url('/kiva.github.io/assets/slide-st-iakovos.jpg');">
+    <div class="swiper-slide page-info" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/kiva.github.io/assets/slide-st-iakovos.jpg');">
       <div class="container">
-        <h1>Καλώς ήρθατε στο KIBA</h1>
-        <div>Lorem ipsem asldfka sdf </div>
-        <a href="">More</a>
+        <div class="">
+          <div><h1>Where Vision Meets Expertise!</h1></div>
+          <p style="padding-block-start: 2em; font-weight: 600; color: #fff;">Ready to transform your dreams into reality</p>
+          <div style="padding-block-start: 2em;"><a href="">More</a></div>
+        </div>
       </div>
     </div>
-    <div class="swiper-slide" style="background-image: url('/kiva.github.io/assets/slide-st-iakovos-2.jpg');">
+    <!-- <div class="swiper-slide page-info" style="background-image: url('/kiva.github.io/assets/slide-st-iakovos-2.jpg');">
       <div class="container">
-        <h1>Καλώς ήρθατε στο KIBA</h1>
-        <div>Lorem ipsem asldfka sdf </div>
-        <a href="">More</a>
+        <div class="flex one">
+          <div><h1>KIBA</h1></div>
+          <div>Where Vision Meets Expertise!</div>
+          <div><a href="">More</a></div>
+        </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="swiper-button-next"></div>
 </div>
 
-<!-- bootstrap -->
-<!-- <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      
-    </div>
-    <div class="carousel-item">
-      
-    </div>
-  </div> -->
-<!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button> -->
-<!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-
-</div> -->
-
-
 <main>
-  <h1>Καλώς ήρθατε στο KIBA</h1>
-
+  <!-- <h1>KIBA</h1> -->
   <article>
-    <section class="page-info">
-      <div class="container flex two-576">
+    <section class="intro">
+      <div class="container">
         <h1>Εκεί που το όραμα συναντά την τεχνογνωσία!</h1>
         <p>Ψάχνετε να μεταμορφώσετε τον χώρο διαβίωσής σας σε ένα εκπληκτικό καταφύγιο; Ή μήπως ψάχνετε για μια αξιόπιστη ομάδα για να ζωντανέψει το σπίτι των ονείρων σας; Μην ψάχνετε άλλο! Είμαστε ένα δυναμικό δίδυμο επαγγελματιών, που συνδυάζει τα ταλέντα ενός έμπειρου αρχιτέκτονα και ενός ειδικευμένου κατασκευαστή μηχανικού, έτοιμοι να μετατρέψουν τα οράματά σας σε πραγματικότητα.</p>
       </div>
@@ -96,12 +79,12 @@
             <div class="work-item">
               <img class="work-item-img" src="assets/renovations.jpg" alt="" width="1035"
                 height="1380">
-              <section>
+              <div>
                 <h2>Ανακαινίσεις</h2>
-                <p><p>Εάν επιθυμείτε να δώσετε νέα πνοή στο διαμέρισμά σας, η τεχνογνωσία μας στις λύσεις ανακαίνισης και ενεργειακής απόδοσης θα ξεπεράσει τις προσδοκίες σας. Ειδικευόμαστε στην ανανέωση χώρων, στη βελτίωση της λειτουργικότητας και στην ενσωμάτωση αρχών βιώσιμου σχεδιασμού για να δημιουργήσουμε ένα περιβάλλον που ταιριάζει απόλυτα στον τρόπο ζωής σας. Η Αθήνα είναι μάρτυρας της μεταμορφωτικής μας δουλειάς, αφήνοντας ένα ίχνος ικανοποιημένων πελατών που μας εμπιστεύτηκαν τα σπίτια τους.</p>
+                <p><p>Μεταμορφώστε το διαμέρισμά σας με μια εκπληκτική ανακαίνιση, προσθέτοντας ομορφιά, λειτουργικότητα και ενεργειακή απόδοση</p>
 </p>
                 <a class="more" href="/kiva.github.io/works/renovations.html">Μάθετε περισσότερα</a>
-              </section>
+              </div>
             </div>
           </li>
           
@@ -109,12 +92,12 @@
             <div class="work-item">
               <img class="work-item-img" src="assets/homes.jpg" alt="" width="1035"
                 height="1380">
-              <section>
+              <div>
                 <h2>Κατοικίες</h2>
-                <p><p>Φανταστείτε να ξυπνάτε σε ένα σπίτι που αντανακλά το μοναδικό σας γούστο και εκπληρώνει κάθε επιθυμία σας. Το πάθος μας έγκειται στη δημιουργία εξατομικευμένων, αρχιτεκτονικά εξαίσιων σπιτιών που συνδυάζονται άψογα με το περιβάλλον τους. Από τη σύλληψη έως την κατασκευή, επιβλέπουμε σχολαστικά κάθε βήμα της διαδικασίας, διασφαλίζοντας ότι το σπίτι των ονείρων σας γίνεται απτή πραγματικότητα. Η Αθήνα και όχι μόνο, το χαρτοφυλάκιό μας παρουσιάζει έργα που προκαλούν δέος που μαρτυρούν την αφοσίωσή μας στην αριστεία.</p>
+                <p><p>Από το σχέδιο στην πραγματικότητα, κατασκευάζουμε επιδέξια το σπίτι των ονείρων σας, αποτυπώνοντας κάθε λεπτομέρεια με ακρίβεια και πάθος</p>
 </p>
                 <a class="more" href="/kiva.github.io/works/homes.html">Μάθετε περισσότερα</a>
-              </section>
+              </div>
             </div>
           </li>
           
@@ -122,12 +105,12 @@
             <div class="work-item">
               <img class="work-item-img" src="assets/greek-orthodox-church.jpg" alt="Image of a Greek Orthodox church" width="1440"
                 height="1080">
-              <section>
-                <h2>Εκκλησίες</h2>
-                <p><p>Είμαστε επίσης υπερήφανοι που ανακοινώνουμε τη συμμετοχή μας σε δύο μνημειώδη έργα που αγκαλιάζουν το αρχιτεκτονικό μεγαλείο και την πνευματική σημασία. Η εκκλησία του Αγίου Ιακώβ στις Λιβανάτες και η Μονή του Αγίου Δαυίδ στην Εύβοια αποτελούν απόδειξη της ικανότητάς μας να συνδυάζουμε την παράδοση με την καινοτομία, δημιουργώντας χώρους που εμπνέουν λατρεία, προβληματισμό και ηρεμία.</p>
+              <div>
+                <h2>Μεγάλα έργα</h2>
+                <p><p>Υποδειγματική κατασκευή εκκλησιών: αριστεία, ασφάλεια, ποιότητα, προσοχή στη λεπτομέρεια, χωρίς συμβιβασμούς κόστους</p>
 </p>
-                <a class="more" href="/kiva.github.io/works/churches.html">Μάθετε περισσότερα</a>
-              </section>
+                <a class="more" href="/kiva.github.io/works/large_projects.html">Μάθετε περισσότερα</a>
+              </div>
             </div>
           </li>
           
@@ -142,8 +125,14 @@
         <ul>
           <!--  -->
           <li>
-            <h2><a href="/kiva.github.io/2022/10/12/saint-iakovos-tsalikis-church-livanates.html">Ιερός Ναός Αγίου Ιακώβου Τσαλίκη</a></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2><a href="/kiva.github.io/2022/11/01/renovation-2-story-house-north-athens.html">Ανακαίνιση διώροφη κατοικία βόρεια προάστια Αθηνών</a></h2>
+            
+
+          </li>
+          <!--  -->
+          <li>
+            <h2><a href="/kiva.github.io/2022/11/01/renovation-2-story-house-north-athens.html">Ανακαίνιση διώροφη κατοικία βόρεια προάστια Αθηνών</a></h2>
+            
 
           </li>
           <!--  -->
@@ -152,14 +141,14 @@
     </section>
 
     <section class="business-takeaway">
-      <div class="container"></div>
+      <div class="container">
       <h1>Ελάτε μαζί μας σε ένα ταξίδι μεταμόρφωσης</h1>
       <p>Στο KIBA, οδηγούμαστε από ένα κοινό πάθος για τη μεταμόρφωση των χώρων, την απελευθέρωση των πραγματικών δυνατοτήτων τους και τη ζωή των ονείρων. Σας προσκαλούμε να εξερευνήσετε το χαρτοφυλάκιό μας, το οποίο επιδεικνύει την τεχνογνωσία μας στην ανακαίνιση διαμερισμάτων, την κατασκευή κατοικιών, τη συνεργασία με προγραμματιστές και τη δημιουργία αρχιτεκτονικών θαυμάτων που προκαλούν δέος. Αφήστε μας να ξεκινήσουμε αυτό το ταξίδι μαζί και να μετατρέψουμε το όραμά σας σε ένα ζωντανό αριστούργημα.</p>
       </div>
     </section>
 
     <section class="contact-us">
-      <div class="container"></div>
+      <div class="container">
       <h1>Επικοινωνήστε μαζί μας σήμερα και ας κάνουμε τα όνειρά σας πραγματικότητα!</h1>
       <p></p>
       </div>
