@@ -1,14 +1,13 @@
 html {
-  
+  font-weight: 300;
+  font-size: clamp(1rem, .75rem + 1.5vw, 1.2rem);
 }
 
 body {
   background: #ffffff;
   color: rgb(70, 60, 60);
-  font-family: 'Roboto', sans-serif!important;
+  font-family: 'Roboto', sans-serif;
   font-display: fallback;
-  font-weight: 300;
-  font-size: clamp(1rem, .58rem + 1.6vw, 2rem);
 }
 
 
@@ -38,7 +37,7 @@ body {
   line-height: 1;
 }
 .page-info .container {
-  padding-block-start: 14em;
+  padding-block-start: 12rem;
 }
 
 .bg-opaque {
@@ -60,7 +59,7 @@ body {
 }
 
 .page-info .container p {
-  padding-block-start: 2em;
+  padding-block-start: 1em;
   font-weight: 600;
   color: #fff;
   margin: 0;
@@ -236,6 +235,7 @@ h2::after {
 
 .footer-container>div {
   border-color: #d2d2d7;
+  padding-inline: 10px;
 }
 
 .footer-container>div:nth-child(1),
@@ -309,5 +309,15 @@ h2::after {
   }
 }
 
-
-
+.contact-item-ul {
+  list-style: none;
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 480px));
+  /* grid-gap: 10px; */
+  padding: 0;
+}
+.contact-item-ul li {
+  /* padding: 10px; */
+  text-align: center;
+}
