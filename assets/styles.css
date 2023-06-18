@@ -3,6 +3,14 @@ html {
   font-size: clamp(1rem, .75rem + 1.5vw, 1.2rem);
 }
 
+nav.navbar {
+  height: 4em!important;
+}
+
+.logo {
+  min-height: 3em;;
+}
+
 body {
   background: #ffffff;
   color: rgb(70, 60, 60);

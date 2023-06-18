@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="57mm"
+   viewBox="0 0 210 57"
+   version="1.1"
+   id="svg103185"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="kiba-group.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview103187"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.64"
+     inkscape:cx="432.03125"
+     inkscape:cy="292.1875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     height="296mm" />
+  <defs
+     id="defs103182">
+    <rect
+       x="351.69308"
+       y="928.18457"
+       width="491.9104"
+       height="197.06871"
+       id="rect20133" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(1.3668164,0,0,1.3668164,-471.84402,-1275.3891)"
+       id="text20131"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect20133);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="351.69336"
+         y="950.44359"
+         id="tspan945"><tspan
+           style="font-weight:bold;font-family:Lato;-inkscape-font-specification:'Lato, Bold';fill:#0055d4"
+           id="tspan941">KIBA Group</tspan><tspan
+           style="font-weight:800;font-size:32px;font-family:Lato;-inkscape-font-specification:'Lato, Ultra-Bold'"
+           id="tspan943">
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.8348px;line-height:24.7419px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.989676"
+       x="10.266396"
+       y="45.91156"
+       id="text114875"><tspan
+         sodipodi:role="line"
+         id="tspan114873"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:15.8348px;font-family:Lato;-inkscape-font-specification:'Lato, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.989676"
+         x="10.266396"
+         y="45.91156">Construction &amp; Renovations</tspan></text>
+  </g>
+</svg>
