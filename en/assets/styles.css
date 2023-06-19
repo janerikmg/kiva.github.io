@@ -329,3 +329,53 @@ h2::after {
   /* padding: 10px; */
   text-align: center;
 }
+
+.reno-slide {
+  gap: 6px;
+  min-height: 90vh;
+}
+
+.before-reno {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit:   cover;
+  object-position: bottom center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.after-reno {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit:   cover;
+  object-position: bottom center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.reno-slide-text {
+  color: white;
+  background: #3535353a;
+}
+
+.reno-slide-text h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.reno-slide-text p {
+  color: white;
+  margin: 0;
+}
+
+@media (min-width: 799px) {
+  .flexnowrap-800 {
+    flex-wrap: nowrap;
+  }
+}
+
+/* .flexnowrap-800 {
+  flex-wrap: nowrap;
+} */
